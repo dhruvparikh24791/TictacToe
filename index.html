@@ -8,6 +8,8 @@
     </head>
     <body>
     <center>
+        <h1>Tic Tac Toe (With Computer)</h1><br/>
+
         <table class="generated" id="playTable" cellspacing="0" cellpadding="25" border="1" >
             <tr>
                 <td data-a="" data-x="0" data-y="0"> </td>
@@ -27,9 +29,17 @@
 
         </table>
         <br/>
+
+        <div id="winner"></div>
         <div id="current"></div>
+        <button onclick="{location.reload();}">Replay</button>
+        <p>First User has to Play!</p>
+
+        Computer : <img src="img/O.jpg" height="100" width="100"/> User : <img src="img/x.jpg" height="100" width="100"/>
+
     </center>
     <script src="js/jquery.js"></script>
-    <script src="js/scripts.js"></script>
+
+    <script src="js/computer.js"></script>
 </body>
 </html>
