@@ -1,0 +1,27 @@
+body{
+    background-color:  beige;
+}
+.generated
+{
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+
+
+    border-collapse:collapse;
+    text-align:  center
+
+}
+td{
+    background-color:  white;
+    height: 50px;
+    width:50px;
+}
+#winner{
+    margin:auto;
+    height:20px;
+    width:100px;
+    border: double 1px black;
+    font-weight: bold;
+    text-decoration-style:  double;
+    color:red;
+}
+

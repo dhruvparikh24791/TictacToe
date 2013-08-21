@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.backbone.example"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+	<gap:splash src="splash.png"/>
+	<preference name="splash-screen-duration" value="5000" />
+    <name>Tic Tac Toe</name>
+
+    <description>
+        A game made in pure javascript and jquery. 
+    </description>
+ 	<icon src="icon.png" />
+    <author href="http://techswings.blogspot.in/" email="">
+        Dhruv Parikh 
+    </author>
+
+</widget>
